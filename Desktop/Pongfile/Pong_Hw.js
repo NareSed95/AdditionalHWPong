@@ -34,7 +34,7 @@ gameik.fill();
 };
 
 
-const draw = function() {
+const rectangle = function() {
 gameik.fillStyle ='green';  
 gameik.clearRect(0, 0, canvas.width, canvas.height);
 gameik.fillRect(taxtak1.x, taxtak1.y, 25, 128);
@@ -81,7 +81,7 @@ const improveKlorik = function () {
 }
 
 const f = function() {
-  draw();
+  rectangle();
   improveKlorik();
   klorik();
   showResults();
