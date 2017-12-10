@@ -43,9 +43,9 @@ gameik.fillRect(taxtak2.x, taxtak2.y, 25, 128);
 };
 const showResults = function() {
   
-  const res1 = taxtak1.wins + "";
-  const res2 = taxtak2.wins + "";
-  const res = res1 + " ~_~ " +  res2;
+  const results1 = taxtak1.wins + "";
+  const results2 = taxtak2.wins + "";
+  const results = results1 + " ~_~ " +  results2;
   gameik.fillText(res,canvas.width/2- 1.5*res.length**2,50);
   gameik.font="48px Arial";
 }
